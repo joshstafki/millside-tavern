@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Menu</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    padding: 40px;
+    background: 
+      linear-gradient(
+        rgba(255, 248, 220, 0.9), 
+        rgba(255, 239, 213, 0.9)
+      ), 
+      url('https://i.pinimg.com/originals/8a/4a/39/8a4a39f1c2a9ad022b17c140c3ae50a5.jpg');
+    background-size: cover;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    color: #5b3a00;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px rgba(91, 58, 0, 0.7);
+    border-radius: 12px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+    text-shadow: 1px 1px 0 #fff8dc;
+  }
+
+  h2 {
+    border-bottom: 2px solid #a67c00;
+    padding-bottom: 0.25em;
+    margin-top: 2em;
+    font-weight: 700;
+  }
+
+  .menu-section {
+    margin-bottom: 2em;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1em 0.3em;
+    font-size: 1.15em;
+  }
+
+  .item-name {
+    flex: 1;
+    white-space: nowrap;
+  }
+
+  .item-price {
+    flex-shrink: 0;
+    margin-left: 1em;
+  }
+
+  .notes {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #704214;
+    margin-top: -0.5em;
+    margin-bottom: 1em;
+    max-width: 600px;
+  }
+
+  .specials {
+    background-color: #f5deb3cc;
+    padding: 15px 20px;
+    border: 1px solid #a67c00;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 1em auto;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+  <h1>MENU</h1>
+
+  <div class="menu-section">
+    <h2>APPETIZERS</h2>
+    <div class="item"><span class="item-name">Mushrooms</span><span class="item-price">$6.75</span></div>
+    <div class="item"><span class="item-name">Oyster Rings</span><span class="item-price">$6.90</span></div>
+    <div class="item"><span class="item-name">Jalapenos</span><span class="item-price">$6.85</span></div>
+    <div class="item"><span class="item-name">Drummies</span><span class="item-price">$8.60</span></div>
+    <div class="item"><span class="item-name">Chicken Strips</span><span class="item-price">$8.50</span></div>
+    <div class="item"><span class="item-name">Mini Tacos</span><span class="item-price">$6.75</span></div>
+    <div class="item"><span class="item-name">French Fries</span><span class="item-price">$5.35</span></div>
+    <div class="item"><span class="item-name">Cheese Curds</span><span class="item-price">$6.65</span></div>
+    <div class="item"><span class="item-name">Deep Fried Pickles</span><span class="item-price">$6.55</span></div>
+    <div class="item"><span class="item-name">Sweet Potato Fries</span><span class="item-price">$6.65</span></div>
+    <div class="notes">*SUBSTITUTE Onion Rings, or Sweet Potato Fries For French Fries — ADD $1.30</div>
+  </div>
+
+  <div class="menu-section">
+    <h2>SOUPS</h2>
+    <div class="item"><span class="item-name">Tomato</span><span class="item-price">$2.75</span></div>
+    <div class="item"><span class="item-name">Homemade Chili (SEASONAL)</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>SALADS</h2>
+    <div class="item"><span class="item-name">Side Salad (cheese, tomatoes, croutons)</span><span class="item-price">$4.25</span></div>
+    <div class="item"><span class="item-name">Chicken Salad (chicken, cheese, tomatoes, croutons)</span><span class="item-price">$8.75</span></div>
+    <div class="item"><span class="item-name">Chef Salad (cheese, ham, tomatoes, croutons)</span><span class="item-price">$8.50</span></div>
+    <div class="item"><span class="item-name">Taco Salad (meat, tomatoes, olives, cheese)</span><span class="item-price">$8.75</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>SAUCES</h2>
+    <p>Bleu Cheese, BBQ, Ranch, Hot, Honey Mustard, French</p>
+  </div>
+
+  <div class="menu-section">
+    <h2>SELECTIONS<br><small>(Baskets include fries)</small></h2>
+    <div class="item"><span class="item-name">Berning Burger (pepper jack cheese, jalapenos)</span><span class="item-price">$5.35 / $8.35</span></div>
+    <div class="item"><span class="item-name">Double Berning Burger</span><span class="item-price">$6.75 / $9.60</span></div>
+    <div class="item"><span class="item-name">Millside Burger (egg, cheese, bacon)</span><span class="item-price">$6.05 / $8.90</span></div>
+    <div class="item"><span class="item-name">Double Millside Burger</span><span class="item-price">$7.30 / $10.25</span></div>
+    <div class="item"><span class="item-name">Hamburger</span><span class="item-price">$4.25 / $7.20</span></div>
+    <div class="item"><span class="item-name">Double Hamburger</span><span class="item-price">$5.40 / $8.35</span></div>
+    <div class="item"><span class="item-name">Cheeseburger</span><span class="item-price">$4.40 / $7.45</span></div>
+    <div class="item"><span class="item-name">Double Cheeseburger</span><span class="item-price">$5.85 / $8.85</span></div>
+    <div class="item"><span class="item-name">Mushroom & Swiss (mushrooms, swiss)</span><span class="item-price">$5.35 / $8.35</span></div>
+    <div class="item"><span class="item-name">Double Mushroom & Swiss</span><span class="item-price">$6.65 / $9.70</span></div>
+    <div class="item"><span class="item-name">California Burger (lettuce, tomato, mayo)</span><span class="item-price">$5.55 / $8.55</span></div>
+    <div class="item"><span class="item-name">Double California Burger</span><span class="item-price">$6.80 / $9.85</span></div>
+    <div class="item"><span class="item-name">Bacon Cheeseburger (bacon, cheese)</span><span class="item-price">$5.45 / $8.45</span></div>
+    <div class="item"><span class="item-name">Double Bacon Cheeseburger</span><span class="item-price">$6.75 / $9.70</span></div>
+    <div class="item"><span class="item-name">Western Burger (bbq sauce, bacon, cheese, crispy onions)</span><span class="item-price">$5.55 / $8.55</span></div>
+    <div class="item"><span class="item-name">Double Western Burger</span><span class="item-price">$6.90 / $9.90</span></div>
+    <div class="item"><span class="item-name">Grilled Cheese</span><span class="item-price">$4.25 / $7.30</span></div>
+    <div class="item"><span class="item-name">Ham</span><span class="item-price">$5.35 / $8.35</span></div>
+    <div class="item"><span class="item-name">Ham and Cheese</span><span class="item-price">$5.70 / $8.70</span></div>
+    <div class="item"><span class="item-name">B.L.T</span><span class="item-price">$5.80 / $9.00</span></div>
+    <div class="item"><span class="item-name">Chicken Strips</span><span class="item-price">$8.50 / $9.80</span></div>
+    <div class="item"><span class="item-name">Chicken Drummies</span><span class="item-price">$8.60 / $9.95</span></div>
+    <div class="item"><span class="item-name">Chicken Sandwich (lettuce, mayo)</span><span class="item-price">$5.60 / $8.30</span></div>
+    <div class="item"><span class="item-name">Fish Sandwich (lettuce, tarter sauce)</span><span class="item-price">$4.45 / $7.40</span></div>
+    <div class="item"><span class="item-name">Shrimp</span><span class="item-price">$6.55 / $9.30</span></div>
+    <div class="item"><span class="item-name">Cod Strips</span><span class="item-price">$6.60 / $9.20</span></div>
+    <div class="item"><span class="item-name">Chopped Steak Sandwich</span><span class="item-price">$5.30 / $8.25</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>KIDS' BASKETS (12 YRS &amp; UNDER)</h2>
+    <div class="item"><span class="item-name">Chicken Strips</span><span class="item-price">$5.95</span></div>
+    <div class="item"><span class="item-name">Cod Strips</span><span class="item-price">$6.05</span></div>
+    <div class="item"><span class="item-name">Corn Dogs</span><span class="item-price">$5.85</span></div>
+    <div class="item"><span class="item-name">Mac & Cheese Bites</span><span class="item-price">$5.85</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>MALTS, SHAKES AND SUNDAES</h2>
+    <div class="item"><span class="item-name">Strawberry, Chocolate, Butterscotch, Vanilla</span><span class="item-price">$4.55</span></div>
+  </div>
+
+  <div class="menu-section">
+    <h2>BEVERAGES</h2>
+    <div class="item"><span class="item-name">Pop (refills)</span><span class="item-price">$2.89</span></div>
+    <p>Coke, Diet Coke, Sprite, Mello Yello, Mr. Pibb, Lemonade, Raspberry Ice Tea</p>
+    <div class="item"><span class="item-name">1919 (refills)</span><span class="item-price">$2.99</span></div>
+    <p>Strawberry, Grape, Orange, Root Beer</p>
+    <div class="item"><span class="item-name">Bottle Pop</span><span class="item-price">$2.39</span></div>
+    <div class="item"><span class="item-name">Bottle Water</span><span class="item-price">$1.65</span></div>
+    <div class="item"><span class="item-name">Coffee (Bottomless)</span><span class="item-price">$2.49</span></div>
+    <div class="item"><span class="item-name">Hot Chocolate</span><span class="item-price">$2.65</span></div>
+    <div class="item"><span class="item-name">Juice</span><span class="item-price">$2.65</span></div>
+    <p>O.J., Grapefruit, Cranberry, Apple</p>
+    <div class="item"><span class="item-name">Milk</span><span class="item-price">$2.65</span></div>
+  </div>
+
+  <div class="menu-section specials">
+    <h2>SPECIALS</h2>
+    <p><strong>Tuesday</strong><br />Taco Tuesday</p>
+    <p><strong>Wednesday</strong><br />Buy one hamburger basket, get one hamburger basket half off (Of Equal Or Lesser Value)<br />Dine-in Only</p>
+  </div>
+</body>
+</html>
